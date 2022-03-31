@@ -359,6 +359,8 @@ github.com/percona/percona-toolkit v3.2.1+incompatible h1:5jLvtZKcu9fDmaLRB8qA4b
 github.com/percona/percona-toolkit v3.2.1+incompatible/go.mod h1:netQWdWMaF1cnmwiIS+i5uyaqNXz46yNeM6HKkR6yeI=
 github.com/percona/pmm v0.0.0-20220325104237-5fa6b2d4f653 h1:XWa1zLL50PtwWDif2YjjahqDuZk0iyvvQQlkEiWOTKw=
 github.com/percona/pmm v0.0.0-20220325104237-5fa6b2d4f653/go.mod h1:avUVk1h6NqWJR0Gu5RctomPy73tH5gR09FiIQegELGQ=
+github.com/percona/pmm v0.0.0-20220331181123-571731d896ff h1:62vh8VpoX357hMGgyGXD+koDnL3U8IwXFuurPClCYck=
+github.com/percona/pmm v0.0.0-20220331181123-571731d896ff/go.mod h1:0F9nNWzNYi65CYeMwySM09uAa0coV290uQxvhRLt+aM=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
@@ -748,6 +750,7 @@ gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f h1:BLraFXnmrev5lT+xlilqcH8XK9/i0At2xKjWk4p6zsU=
 gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/errgo.v2 v2.1.0/go.mod h1:hNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=
+gopkg.in/reform.v1 v1.5.0/go.mod h1:AIv0CbDRJ0ljQwptGeaIXfpDRo02uJwTq92aMFELEeU=
 gopkg.in/reform.v1 v1.5.1 h1:7vhDFW1n1xAPC6oDSvIvVvpRkaRpXlxgJ4QB4s3aDdo=
 gopkg.in/reform.v1 v1.5.1/go.mod h1:AIv0CbDRJ0ljQwptGeaIXfpDRo02uJwTq92aMFELEeU=
 gopkg.in/yaml.v2 v2.2.1/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=

@@ -19,6 +19,7 @@ import (
 	"bytes"
 	"context"
 	_ "expvar" // register /debug/vars
+	"github.com/percona/pmm/utils/errors"
 	"html/template"
 	"log"
 	"net"
@@ -30,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	grpc_gateway "github.com/Percona-Lab/grpc-gateway/v2/runtime"
+	grpc_gateway "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/percona/pmm/api/agentlocalpb"
 	"github.com/percona/pmm/api/agentpb"
 	"github.com/percona/pmm/version"
@@ -280,6 +281,7 @@ func (s *Server) runJSONServer(ctx context.Context, grpcAddress string) {
 				DiscardUnknown: true,
 			},
 		}),
+		grpc_gateway.WithErrorHandler(errors.PMMHTTPErrorHandler),
 	)
 	opts := []grpc.DialOption{
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
