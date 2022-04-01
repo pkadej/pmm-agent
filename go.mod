@@ -3,7 +3,7 @@ module github.com/percona/pmm-agent
 go 1.17
 
 // Use for local development, but do not commit:
-// replace github.com/percona/pmm => ../pmm
+replace github.com/percona/pmm => ../pmm
 
 // Update depedencies with:
 // go get -v github.com/percona/pmm@main
@@ -15,11 +15,11 @@ replace github.com/lfittl/pg_query_go v1.0.2 => github.com/Percona-Lab/pg_query_
 require (
 	github.com/AlekSi/pointer v1.1.0
 	github.com/DATA-DOG/go-sqlmock v1.5.0
-	github.com/Percona-Lab/grpc-gateway/v2 v2.10.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-openapi/runtime v0.19.20
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang/protobuf v1.5.2
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.0
 	github.com/hashicorp/go-version v1.3.0
 	github.com/lfittl/pg_query_go v1.0.2
 	github.com/lib/pq v1.10.0
@@ -63,7 +63,6 @@ require (
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.0 // indirect
 	github.com/klauspost/compress v1.9.5 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
 	github.com/mailru/easyjson v0.7.1 // indirect

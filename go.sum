@@ -37,8 +37,6 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/DATA-DOG/go-sqlmock v1.5.0 h1:Shsta01QNfFxHCfpW6YH2STWB0MudeXXEWMr20OEh60=
 github.com/DATA-DOG/go-sqlmock v1.5.0/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q5eFN3EC/SaM=
-github.com/Percona-Lab/grpc-gateway/v2 v2.10.1 h1:MMQjHaVOFXpVyT+ettDvSaGRmyuvOvCijauFs/9SA5w=
-github.com/Percona-Lab/grpc-gateway/v2 v2.10.1/go.mod h1:vXG5cWXSkLkGC5DSFbkW0nf1VlmkB58xOk8RUQvDSb8=
 github.com/Percona-Lab/kingpin v2.2.6-percona+incompatible h1:N5oM40aAatvf8bCYjv69YsVdxJLIUhY/MerUG1jRL9Y=
 github.com/Percona-Lab/kingpin v2.2.6-percona+incompatible/go.mod h1:UC6j/e2eqpHBB/vn+5214ExsoDLiEo6BfUGBhbtf+x0=
 github.com/Percona-Lab/pg_query_go v1.0.1-0.20190723081422-3fc3af54a6f7 h1:oIyj5D1tuJw7aPzpR2wNLxBZw2WnPpqNGb9nZ8TXBnc=
@@ -357,10 +355,6 @@ github.com/percona/go-mysql v0.0.0-20200630114833-b77f37c0bfa2 h1:0tQBti5FIrKfH3
 github.com/percona/go-mysql v0.0.0-20200630114833-b77f37c0bfa2/go.mod h1:/SGLf9OMxlnK6jq4mkFiImBcJXXk5jwD+lDrwDaGXcw=
 github.com/percona/percona-toolkit v3.2.1+incompatible h1:5jLvtZKcu9fDmaLRB8qA4bLR727t5iYyguHJJQTk9w0=
 github.com/percona/percona-toolkit v3.2.1+incompatible/go.mod h1:netQWdWMaF1cnmwiIS+i5uyaqNXz46yNeM6HKkR6yeI=
-github.com/percona/pmm v0.0.0-20220325104237-5fa6b2d4f653 h1:XWa1zLL50PtwWDif2YjjahqDuZk0iyvvQQlkEiWOTKw=
-github.com/percona/pmm v0.0.0-20220325104237-5fa6b2d4f653/go.mod h1:avUVk1h6NqWJR0Gu5RctomPy73tH5gR09FiIQegELGQ=
-github.com/percona/pmm v0.0.0-20220331181123-571731d896ff h1:62vh8VpoX357hMGgyGXD+koDnL3U8IwXFuurPClCYck=
-github.com/percona/pmm v0.0.0-20220331181123-571731d896ff/go.mod h1:0F9nNWzNYi65CYeMwySM09uAa0coV290uQxvhRLt+aM=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
