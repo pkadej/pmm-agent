@@ -19,7 +19,6 @@ import (
 	"bytes"
 	"context"
 	_ "expvar" // register /debug/vars
-	"github.com/percona/pmm/utils/errors"
 	"html/template"
 	"log"
 	"net"
@@ -34,6 +33,7 @@ import (
 	grpc_gateway "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/percona/pmm/api/agentlocalpb"
 	"github.com/percona/pmm/api/agentpb"
+	pmmerrors "github.com/percona/pmm/utils/errors"
 	"github.com/percona/pmm/version"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
@@ -281,8 +281,8 @@ func (s *Server) runJSONServer(ctx context.Context, grpcAddress string) {
 				DiscardUnknown: true,
 			},
 		}),
-		grpc_gateway.WithErrorHandler(errors.PMMHTTPErrorHandler),
-	)
+		grpc_gateway.WithErrorHandler(pmmerrors.PMMHTTPErrorHandler))
+
 	opts := []grpc.DialOption{
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 		grpc.WithBlock(),
