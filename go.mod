@@ -3,7 +3,7 @@ module github.com/percona/pmm-agent
 go 1.17
 
 // Use for local development, but do not commit:
-replace github.com/percona/pmm => ../pmm
+// replace github.com/percona/pmm => ../pmm
 
 // Update depedencies with:
 // go get -v github.com/percona/pmm@main
@@ -26,7 +26,7 @@ require (
 	github.com/percona/exporter_shared v0.7.3
 	github.com/percona/go-mysql v0.0.0-20200630114833-b77f37c0bfa2
 	github.com/percona/percona-toolkit v3.2.1+incompatible
-	github.com/percona/pmm v0.0.0-20220331181123-571731d896ff
+	github.com/percona/pmm v0.0.0-20220404080917-457298770dfa
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.1
 	github.com/prometheus/common v0.32.1
